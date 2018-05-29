@@ -24,11 +24,11 @@ function printPerson(person) {
 
 // Function to list every person in Address Book
 function list() {
-	var contactsLength = contacts.length;
+  var contactsLength = contacts.length;
   console.log("Address Book:");
-	for (var i = 0; i < contactsLength; i++) {
-		printPerson(contacts[i]);
-	}
+    for (var i = 0; i < contactsLength; i++) {
+      printPerson(contacts[i]);
+    }
 }
 list();
 
